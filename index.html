@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Pequeña</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora Pequeña</h1>
+    
+    <!-- Espacio para información mejorado -->
+    <h2 id="info" class="big" title="Información de la operación">Esperando operación...</h2>
+    
+    <input type="text" id="display" placeholder="Introduce número o CSV" tabindex="1">
+    <br><br>
+
+    <!-- Operaciones Unarias y Nuevas -->
+    <button id="square" accesskey="c">x² (c)</button>
+    <button id="modulo" accesskey="m">Módulo (m)</button>
+    <button id="factorial" accesskey="f">Factorial (f)</button>
+    <button id="sqrt" accesskey="r">Raíz (r)</button>
+    <br><br>
+
+    <!-- Operaciones Binarias -->
+    <button id="add" accesskey="+">Suma (+)</button>
+    <button id="mul" accesskey="*">Mult (*)</button>
+    <button id="div" accesskey="/">Div (/)</button>
+    <button id="pow" accesskey="p">Potencia (p)</button>
+    <button id="eq" accesskey="=">Igual (=)</button>
+    <br><br>
+
+    <!-- Operaciones CSV Ampliadas -->
+    <button id="csv-sum">Suma CSV</button>
+    <button id="csv-mean">Media CSV</button>
+    <button id="csv-sort">Ordenar CSV</button>
+    <button id="csv-reverse">Invertir CSV</button>
+    <button id="csv-del">Borrar Elemento CSV</button>
+    <br><br>
+
+    <!-- Gestión de Errores Mejorada -->
+    <button id="download-log" class="btn-log">Descargar Log de Errores</button>
+</body>
+</html>
